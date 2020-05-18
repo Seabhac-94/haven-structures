@@ -1,0 +1,20 @@
+.main-bg {
+    height: 90vh;
+    background-image: url("../images/desktopheader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    margin: 200px 0 0 20px;
+    font-family: minion-pro, serif;
+    color: #fafafa;
+}
+
+.hero-heading {  
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
+}
+
