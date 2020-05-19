@@ -56,8 +56,8 @@ html, body {
 }
 
 .card-img-title {
-    background-color: darkgrey;
-    color: navy;
+    background-color: #E6E5E6;
+    color: #0D1126;
 }
 
 .card-title {
@@ -65,9 +65,29 @@ html, body {
     font-size: 2.5em;
 }
 
-.card-info{
-    background-color: navy;
+.card-info, .info-block{
+    background-color: #0D1126;
     color: #fafafa;
+}
+
+.card-text {
+    font-size: 1.5em;
+}
+
+.info-para {
+    font-size: 2em;
+}
+.info-para-tp {
+   padding-top: 0.5em;
+}
+
+.info-para-bp {
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+
+.info-para-hero {
+    font-size: 4em;
 }
 
 
