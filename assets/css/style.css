@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .main-bg {
     height: 90vh;
     background-image: url("../images/desktopheader.png");
@@ -7,9 +13,8 @@
 }
 
 .hero-text {
-    margin: 200px 0 0 20px;
-    font-family: minion-pro, serif;
-    color: #fafafa;
+    margin: 25vh 0 0 2vh; 
+    color: #cccccc;
 }
 
 .hero-heading {  
@@ -18,3 +23,49 @@
     font-size: 4em;
 }
 
+.hero-para {
+    color: black;
+}
+
+.contact{
+    padding-top: 4em;
+}
+
+.btn-contact{
+    font-weight: 600;
+    background-color: #b30000;
+    color: #fafafa;
+    font-size: 3em;
+    padding: 0.3em 2em;
+    border-radius: 1em;
+
+}
+
+.use-cases-heading{
+    padding-top: 1.5em;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+.use-cases-panels{
+    padding-top: 2em;
+}
+
+.card-title{
+    padding-top: 0.5em;
+}
+
+.card-img-title {
+    background-color: darkgrey;
+    color: navy;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.card-info{
+    background-color: navy;
+    color: #fafafa;
+}
