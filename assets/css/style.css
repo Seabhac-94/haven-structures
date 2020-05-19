@@ -41,7 +41,7 @@ html, body {
 
 }
 
-.use-cases-heading{
+.use-cases-heading, .travel-times-heading{
     padding-top: 1.5em;
     font-size: 3.5em;
     font-weight: bolder;
