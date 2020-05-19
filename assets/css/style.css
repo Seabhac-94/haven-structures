@@ -69,3 +69,48 @@ html, body {
     background-color: navy;
     color: #fafafa;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 769px) {
+    .hero-text, .hero-para {
+        color: #fafafa;
+    }
+}
+
+@media (max-width: 767px) {
+    .use-cases-heading {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+    .hero-heading {
+        font-size: 3em;
+    }
+
+    .btn-contact {
+        font-size: 2.5em;
+        padding: 0.1em 0.5em;
+    }
+}
+
+@media (max-width: 375px){
+    .main-bg {
+        height: 75vh;
+    }
+    .hero-heading {
+        font-size: 2em;
+    }
+
+    .btn-contact {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 325px) {
+    .use-cases-heading {
+        font-size: 3em;
+    }
+}
