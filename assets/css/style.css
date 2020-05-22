@@ -100,8 +100,19 @@ html, body {
     font-weight: bolder;
 }
 
+.transportable-heading {
+    padding-top: 0.3em;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
 
 /* Media Queries */
+@media (max-width: 900px) {
+    .transportable-heading {
+        font-size: 2.5em;
+    }
+}
 
 @media (max-width: 769px) {
     .hero-text, .hero-para {
@@ -112,19 +123,51 @@ html, body {
 @media (max-width: 767px) {
     .use-cases-heading {
         text-align: center;
+        padding-top: 1em;
     }
+    .travel-times-heading{
+        padding-top: 1em;
+        font-size: 3em;
+    }
+    .card-text {
+        font-size: 1.2em;
+    }
+    .info-para {
+        font-size: 1.2em;
+    }
+    .info-para-hero {
+        font-size: 2.5em;
+    }
+    .custom-size-heading{
+        font-size: 2.5em;
+    }
+    .transportable-heading {
+        padding-top: 1em
+    }
+    
+
 }
 
 @media (max-width: 600px){
     .hero-heading {
         font-size: 3em;
     }
-
     .btn-contact {
         font-size: 2.5em;
         padding: 0.1em 0.5em;
     }
 }
+
+@media (max-width: 425px) {
+    .info-para {
+        font-size: 1.2em;
+    }
+    .info-para-hero {
+        font-size: 2.2em;
+    }
+    .transportable-para {
+       font-size: 1em;
+    }
 
 @media (max-width: 375px){
     .main-bg {
@@ -133,8 +176,13 @@ html, body {
     .hero-heading {
         font-size: 2em;
     }
-
     .btn-contact {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 350px) {
+    .transportable-heading {
         font-size: 2em;
     }
 }
