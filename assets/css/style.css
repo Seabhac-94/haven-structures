@@ -4,6 +4,10 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    font-weight: lighter;
+}
+
 .main-bg {
     height: 90vh;
     background-image: url("../images/desktopheader.png");
@@ -74,7 +78,7 @@ html, body {
     font-size: 1.5em;
 }
 
-.info-para {
+.info-para, .custom-sizing-para, .transportable-para, .contact-us-para {
     font-size: 2em;
 }
 .info-para-tp {
@@ -87,11 +91,11 @@ html, body {
 }
 
 .info-para-hero {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
-.image-spacing {
-    margin: 5em 0;
+.section-spacing {
+    min-height: 10em;
 }
 
 .custom-size-heading{
@@ -106,6 +110,24 @@ html, body {
     font-weight: bolder;
 }
 
+.contact-us-header {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #b30000;
+}
+
+.previous-projects-heading {
+    color: #0D1126;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+.previous-projects-bg {
+    background-color: #E6E5E6;
+    padding: 1.5em 0;
+    margin-top: 2em;
+}
+
 
 /* Media Queries */
 @media (max-width: 900px) {
@@ -117,6 +139,9 @@ html, body {
 @media (max-width: 769px) {
     .hero-text, .hero-para {
         color: #fafafa;
+    }
+    .section-spacing {
+        min-height: 8em;
     }
 }
 
@@ -132,20 +157,18 @@ html, body {
     .card-text {
         font-size: 1.2em;
     }
-    .info-para {
+    .info-para, .custom-sizing-para, .transportable-para, .contact-us-para {
         font-size: 1.2em;
     }
     .info-para-hero {
         font-size: 2.5em;
     }
-    .custom-size-heading{
+    .custom-size-heading, .previous-projects-heading {
         font-size: 2.5em;
     }
     .transportable-heading {
         padding-top: 1em
     }
-    
-
 }
 
 @media (max-width: 600px){
@@ -156,18 +179,22 @@ html, body {
         font-size: 2.5em;
         padding: 0.1em 0.5em;
     }
+    .contact-us-header {
+        font-size: 4em;
+    }
 }
 
 @media (max-width: 425px) {
-    .info-para {
-        font-size: 1.2em;
-    }
     .info-para-hero {
         font-size: 2.2em;
     }
-    .transportable-para {
-       font-size: 1em;
+    .section-spacing {
+        min-height: 5em;
     }
+    .contact-us-header {
+        font-size: 3em;
+    }
+}
 
 @media (max-width: 375px){
     .main-bg {
@@ -179,10 +206,13 @@ html, body {
     .btn-contact {
         font-size: 2em;
     }
+    .info-para, .custom-sizing-para, .transportable-para, .contact-us-para {
+        font-size: 1em;
+     }
 }
 
 @media (max-width: 350px) {
-    .transportable-heading {
+    .transportable-heading, .custom-size-heading, .travel-times-heading, .previous-projects-heading  {
         font-size: 2em;
     }
 }
