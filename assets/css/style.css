@@ -29,6 +29,7 @@ p {
 
 .hero-para {
     color: black;
+    font-size: 1.5em;
 }
 
 .contact{
@@ -42,7 +43,6 @@ p {
     font-size: 3em;
     padding: 0.3em 2em;
     border-radius: 1em;
-
 }
 
 .use-cases-heading, .travel-times-heading{
@@ -116,7 +116,7 @@ p {
     color: #b30000;
 }
 
-.previous-projects-heading {
+.previous-projects-master-heading {
     color: #0D1126;
     font-size: 3.5em;
     font-weight: bolder;
@@ -128,20 +128,75 @@ p {
     margin-top: 2em;
 }
 
+.previous-projects-overlay {
+    min-height: 20em;
+    padding: 0;
+}
+
+.display-transition {
+    display: none;  
+    min-height: 20em;  
+    background-color: rgb(13, 17, 38, 0.8);
+}
+
+.previous-projects-heading {
+    color: #fafafa;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.previous-projects-para {
+    color: #fafafa;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+div:hover > .display-transition {
+    display: inline-block;
+}
 
 /* Media Queries */
+@media (max-width: 1155px) {
+.contact-us-header {
+    font-size: 4em;
+}
+.contact-us-para {
+    font-size: 1.8em;
+}
+}
+
+@media (max-width: 950px) {
+    .hero-para {
+        font-size: 1.2em;
+    }
+}
+
 @media (max-width: 900px) {
     .transportable-heading {
         font-size: 2.5em;
     }
+
 }
 
 @media (max-width: 769px) {
+    .hero-heading {
+        font-size: 3.5em;
+    }
     .hero-text, .hero-para {
         color: #fafafa;
     }
+    .btn-contact{
+        font-size: 2.5em;
+        padding: 0.2em 1.5em;
+    }   
     .section-spacing {
         min-height: 8em;
+    }
+    .contact-us-header {
+        font-size: 3em;
+    }
+    .info-para, .custom-sizing-para, .transportable-para, .contact-us-para {
+        font-size: 1.5em;
     }
 }
 
@@ -178,9 +233,6 @@ p {
     .btn-contact {
         font-size: 2.5em;
         padding: 0.1em 0.5em;
-    }
-    .contact-us-header {
-        font-size: 4em;
     }
 }
 
@@ -222,3 +274,7 @@ p {
         font-size: 3em;
     }
 }
+
+
+/* Keyframes */
+
