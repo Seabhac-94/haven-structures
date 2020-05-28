@@ -10,7 +10,7 @@ p {
 
 .main-bg {
     height: 90vh;
-    background-image: url("../images/desktopheader.png");
+    background-image: url("../images/Images_Site_Haven5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -274,7 +274,4 @@ div:hover > .display-transition {
         font-size: 3em;
     }
 }
-
-
-/* Keyframes */
 
