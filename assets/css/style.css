@@ -201,6 +201,13 @@ div:hover>.display-transition {
 
 /* Media Queries */
 
+@media (max-width: 1400px) {
+    .card-title {
+        font-size: 2em;
+    }
+    
+}
+
 @media (max-width: 1230px) {
     .nav-link {
         font-size: 1.5em;
