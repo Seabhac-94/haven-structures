@@ -191,7 +191,7 @@ p {
 
 .previous-projects-para {
     color: #fafafa;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
@@ -321,6 +321,9 @@ div:hover>.display-transition {
         font-size: 2.5em;
         padding: 0.1em 0.5em;
     }
+    .hero-text {
+        margin: 20vh 0 0 2vh;
+    }
 }
 
 @media (max-width: 425px) {
@@ -334,6 +337,9 @@ div:hover>.display-transition {
 
     .contact-us-header, .technology-header {
         font-size: 3em;
+    }
+    .hero-text {
+        margin: 15vh 0 0 1vh;
     }
 }
 
@@ -366,6 +372,9 @@ div:hover>.display-transition {
     .travel-times-heading,
     .previous-projects-heading {
         font-size: 2em;
+    }
+    .hero-text {
+        margin: 5vh 0 0 1vh;
     }
 }
 
